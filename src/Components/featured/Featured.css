@@ -1,0 +1,41 @@
+.homeContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredItem{
+   position: relative;
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: 1px;
+    margin-left: 8px;
+
+}
+
+
+
+
+

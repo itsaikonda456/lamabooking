@@ -1,0 +1,67 @@
+/* General container styles */
+.loginForm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #ccdaf7; /* Light yellow background */
+}
+
+/* Box containing the form */
+.loginForm-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ededed;
+    border: 2px solid #d1d5db; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    height: 230px;
+}
+
+/* Title styling */
+.loginForm-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* Input field styling */
+.loginForm-field {
+    margin-bottom: 16px;
+}
+
+.loginForm-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d1d5db; /* Light gray border */
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.loginForm-input:focus {
+    border-color: #3b82f6; /* Blue focus border */
+    box-shadow: 0 0 3px #3b82f6;
+}
+
+/* Submit button styling */
+.loginForm-button {
+    width: 100%;
+    background-color: #003580; /* Green background */
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginForm-button:hover {
+    background-color: #002255; /* Darker green on hover */
+}
